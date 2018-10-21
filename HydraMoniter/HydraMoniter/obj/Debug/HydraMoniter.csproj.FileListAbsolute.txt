@@ -1,0 +1,13 @@
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\bin\Debug\HydraMoniter.exe.config
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\bin\Debug\HydraMoniter.exe
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\bin\Debug\HydraMoniter.pdb
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\obj\Debug\HydraMoniter.exe
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\obj\Debug\HydraMoniter.pdb
+D:\无锡顶锋日嘉\Project\HydraMoniter\HydraMoniter\bin\Debug\HydraMoniter.exe.config
+D:\无锡顶锋日嘉\Project\HydraMoniter\HydraMoniter\obj\Debug\HydraMoniter.exe
+D:\无锡顶锋日嘉\Project\HydraMoniter\HydraMoniter\obj\Debug\HydraMoniter.pdb
+D:\无锡顶锋日嘉\Project\HydraMoniter\HydraMoniter\bin\Debug\HydraMoniter.exe
+D:\无锡顶锋日嘉\Project\HydraMoniter\HydraMoniter\bin\Debug\HydraMoniter.pdb
+D:\无锡顶锋日嘉\Project\HydraMoniter\HydraMoniter\obj\Debug\HydraMoniter.csprojResolveAssemblyReference.cache
+D:\无锡顶锋日嘉\Project\HydraMoniter\HydraMoniter\obj\Debug\HydraMoniter.ProjectInstaller.resources
+D:\无锡顶锋日嘉\Project\HydraMoniter\HydraMoniter\obj\Debug\HydraMoniter.csproj.GenerateResource.Cache

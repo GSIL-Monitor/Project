@@ -1,0 +1,6 @@
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\bin\Debug\HydarMoniter.exe.config
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\bin\Debug\HydarMoniter.exe
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\bin\Debug\HydarMoniter.pdb
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\obj\Debug\HydarMoniter.csprojResolveAssemblyReference.cache
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\obj\Debug\HydarMoniter.exe
+D:\无锡顶锋日嘉\Project\HydarMoniter\HydarMoniter\obj\Debug\HydarMoniter.pdb

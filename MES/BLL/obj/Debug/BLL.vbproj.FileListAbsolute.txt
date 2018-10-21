@@ -1,0 +1,9 @@
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\BLL.dll
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\BLL.pdb
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\BLL.xml
+D:\无锡顶锋日嘉\Project\MES\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+D:\无锡顶锋日嘉\Project\MES\BLL\obj\Debug\BLL.Resources.resources
+D:\无锡顶锋日嘉\Project\MES\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+D:\无锡顶锋日嘉\Project\MES\BLL\obj\Debug\BLL.dll
+D:\无锡顶锋日嘉\Project\MES\BLL\obj\Debug\BLL.xml
+D:\无锡顶锋日嘉\Project\MES\BLL\obj\Debug\BLL.pdb

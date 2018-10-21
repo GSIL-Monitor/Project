@@ -1,0 +1,73 @@
+E:\Share\Release\Common.dll
+E:\Share\Release\Common.pdb
+E:\Share\Release\Common.xml
+E:\Share\Common\obj\Release\ResolveAssemblyReference.cache
+E:\Share\Common\obj\Release\Common.Resources.resources
+E:\Share\Common\obj\Release\Common.vbproj.GenerateResource.Cache
+E:\Share\Common\obj\Release\Common.dll
+E:\Share\Common\obj\Release\Common.xml
+E:\Share\Common\obj\Release\Common.pdb
+E:\STwo\Share\Release\Common.dll
+E:\STwo\Share\Release\Common.pdb
+E:\STwo\Share\Release\Common.xml
+E:\STwo\Share\Common\obj\Release\ResolveAssemblyReference.cache
+E:\STwo\Share\Common\obj\Release\Common.Resources.resources
+E:\STwo\Share\Common\obj\Release\Common.vbproj.GenerateResource.Cache
+E:\STwo\Share\Common\obj\Release\Common.dll
+E:\STwo\Share\Common\obj\Release\Common.xml
+E:\STwo\Share\Common\obj\Release\Common.pdb
+E:\STwo\View\bin\Debug\Common.dll
+E:\STwo\View\bin\Debug\Common.pdb
+E:\STwo\View\bin\Debug\Common.xml
+E:\STwo\Common\obj\Release\ResolveAssemblyReference.cache
+E:\STwo\Common\obj\Release\Common.Resources.resources
+E:\STwo\Common\obj\Release\Common.vbproj.GenerateResource.Cache
+E:\STwo\Common\obj\Release\Common.dll
+E:\STwo\Common\obj\Release\Common.xml
+E:\STwo\Common\obj\Release\Common.pdb
+E:\项目\未分类\STwo\View\bin\Debug\Common.dll
+E:\项目\未分类\STwo\View\bin\Debug\Common.pdb
+E:\项目\未分类\STwo\View\bin\Debug\Common.xml
+E:\项目\未分类\STwo\Common\obj\Release\ResolveAssemblyReference.cache
+E:\项目\未分类\STwo\Common\obj\Release\Common.Resources.resources
+E:\项目\未分类\STwo\Common\obj\Release\Common.vbproj.GenerateResource.Cache
+E:\项目\未分类\STwo\Common\obj\Release\Common.dll
+E:\项目\未分类\STwo\Common\obj\Release\Common.xml
+E:\项目\未分类\STwo\Common\obj\Release\Common.pdb
+C:\yonseERP\View\bin\Debug\Common.dll
+C:\yonseERP\View\bin\Debug\Common.pdb
+C:\yonseERP\View\bin\Debug\Common.xml
+C:\yonseERP\Common\obj\Release\ResolveAssemblyReference.cache
+C:\yonseERP\Common\obj\Release\Common.Resources.resources
+C:\yonseERP\Common\obj\Release\Common.vbproj.GenerateResource.Cache
+C:\yonseERP\Common\obj\Release\Common.dll
+C:\yonseERP\Common\obj\Release\Common.xml
+C:\yonseERP\Common\obj\Release\Common.pdb
+C:\Documents and Settings\Administrator\桌面\yonseERP\View\bin\Debug\Common.dll
+C:\Documents and Settings\Administrator\桌面\yonseERP\View\bin\Debug\Common.pdb
+C:\Documents and Settings\Administrator\桌面\yonseERP\View\bin\Debug\Common.xml
+C:\Documents and Settings\Administrator\桌面\yonseERP\Common\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\yonseERP\Common\obj\Release\Common.Resources.resources
+C:\Documents and Settings\Administrator\桌面\yonseERP\Common\obj\Release\Common.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\yonseERP\Common\obj\Release\Common.dll
+C:\Documents and Settings\Administrator\桌面\yonseERP\Common\obj\Release\Common.xml
+C:\Documents and Settings\Administrator\桌面\yonseERP\Common\obj\Release\Common.pdb
+D:\C#Project\yonseERP\View\bin\Debug\Common.dll
+D:\C#Project\yonseERP\View\bin\Debug\Common.pdb
+D:\C#Project\yonseERP\View\bin\Debug\Common.xml
+D:\C#Project\yonseERP\Common\obj\Release\ResolveAssemblyReference.cache
+D:\C#Project\yonseERP\Common\obj\Release\Common.Resources.resources
+D:\C#Project\yonseERP\Common\obj\Release\Common.vbproj.GenerateResource.Cache
+D:\C#Project\yonseERP\Common\obj\Release\Common.dll
+D:\C#Project\yonseERP\Common\obj\Release\Common.xml
+D:\C#Project\yonseERP\Common\obj\Release\Common.pdb
+E:\HR\View\bin\Debug\Common.dll
+E:\HR\View\bin\Debug\Common.pdb
+E:\HR\View\bin\Debug\Common.xml
+E:\HR\Common\obj\Release\ResolveAssemblyReference.cache
+E:\HR\Common\obj\Release\Common.Resources.resources
+E:\HR\Common\obj\Release\GenerateResource.read.1.tlog
+E:\HR\Common\obj\Release\GenerateResource.write.1.tlog
+E:\HR\Common\obj\Release\Common.dll
+E:\HR\Common\obj\Release\Common.xml
+E:\HR\Common\obj\Release\Common.pdb

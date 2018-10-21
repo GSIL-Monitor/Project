@@ -1,0 +1,16 @@
+D:\上海日嘉\HR\VIEW\bin\Debug\Speech.dll
+D:\上海日嘉\HR\VIEW\bin\Debug\Speech.pdb
+D:\上海日嘉\HR\VIEW\bin\Debug\Speech.xml
+D:\上海日嘉\HR\Speech\obj\Debug\Speech.Resources.resources
+D:\上海日嘉\HR\Speech\obj\Debug\Speech.vbproj.GenerateResource.Cache
+D:\上海日嘉\HR\Speech\obj\Debug\Speech.dll
+D:\上海日嘉\HR\Speech\obj\Debug\Speech.xml
+D:\上海日嘉\HR\Speech\obj\Debug\Speech.pdb
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\Speech.dll
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\Speech.pdb
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\Speech.xml
+D:\无锡顶锋日嘉\Project\MES\Speech\obj\Debug\Speech.Resources.resources
+D:\无锡顶锋日嘉\Project\MES\Speech\obj\Debug\Speech.vbproj.GenerateResource.Cache
+D:\无锡顶锋日嘉\Project\MES\Speech\obj\Debug\Speech.dll
+D:\无锡顶锋日嘉\Project\MES\Speech\obj\Debug\Speech.xml
+D:\无锡顶锋日嘉\Project\MES\Speech\obj\Debug\Speech.pdb

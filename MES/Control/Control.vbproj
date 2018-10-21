@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3065C2E2-1B45-4BC8-8810-884B15200F01}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Control</RootNamespace>
+    <AssemblyName>Control</AssemblyName>
+    <MyType>Windows</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\MES\bin\Debug\</OutputPath>
+    <DocumentationFile>Control.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\View\bin\Debug\</OutputPath>
+    <DocumentationFile>Control.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clock.Designer.vb">
+      <DependentUpon>Clock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clock.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common.vb" />
+    <Compile Include="CView.Designer.vb">
+      <DependentUpon>CView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmDataGridSetting.Designer.vb">
+      <DependentUpon>frmDataGridSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataGridSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDateBig.designer.vb">
+      <DependentUpon>frmDateBig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDateBig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDateTime.Designer.vb">
+      <DependentUpon>FrmDateTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDateTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Data.vb" />
+    <Compile Include="Model\DataCollection.vb" />
+    <Compile Include="MyCellHeadCaption.Designer.vb">
+      <DependentUpon>MyCellHeadCaption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyCellHeadCaption.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyCustomerCell.Designer.vb">
+      <DependentUpon>MyCustomerCell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyCustomerCell.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyDataGridViewComboBoxExEditingControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyDataGridViewComboBoxExtendEditingControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyDataGridViewComboEditBoxCell.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MyDataGridViewEditingControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyDataGridViewCell.vb" />
+    <Compile Include="MyDataGridViewColumn.vb" />
+    <Compile Include="Enums.vb" />
+    <Compile Include="frmDate.designer.vb">
+      <DependentUpon>frmDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyDualList.Designer.vb">
+      <DependentUpon>MyDualList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyDualList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyTextBox.Designer.vb">
+      <DependentUpon>MyTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyTextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyTextBoxTime.Designer.vb">
+      <DependentUpon>MyTextBoxTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyTextBoxTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyTextTime.Designer.vb">
+      <DependentUpon>MyTextTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyTextTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyToolStrip.designer.vb">
+      <DependentUpon>MyToolStrip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyTreeView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CView.resx">
+      <DependentUpon>CView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataGridSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDataGridSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDate.resx">
+      <DependentUpon>frmDate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDateBig.resx">
+      <DependentUpon>frmDateBig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDateTime.resx">
+      <DependentUpon>FrmDateTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyCellHeadCaption.resx">
+      <DependentUpon>MyCellHeadCaption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyCustomerCell.resx">
+      <DependentUpon>MyCustomerCell.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyDualList.resx">
+      <DependentUpon>MyDualList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTextBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MyTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTextBoxTime.resx">
+      <DependentUpon>MyTextBoxTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTextTime.resx">
+      <DependentUpon>MyTextTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyToolStrip.resx">
+      <DependentUpon>MyToolStrip.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.vbproj">
+      <Project>{e85ed6d4-15df-46d7-a1c5-2b36453fa3c9}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

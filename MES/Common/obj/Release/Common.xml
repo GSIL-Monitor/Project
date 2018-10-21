@@ -1,0 +1,583 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Common
+</name>
+</assembly>
+<members>
+<member name="M:Common.Functions.GetCode(System.String)">
+	<summary>
+ 取得括号内的字符串
+ </summary>
+	<param name="str"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.Functions.Speer(System.String,System.String)">
+	<summary>
+ 询问
+ </summary>
+	<param name="msg">询问内容</param>
+	<param name="title">标题</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.Functions.IsNumberColumn(System.Data.DataColumn)">
+	<summary>
+ 指定的列类型是否为数字
+ </summary>
+	<param name="col"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Common.Functions">
+	<summary>
+ 公共函数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Common.MailSender.Send(System.String,System.String,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="recipient"></param>
+	<param name="subject"></param>
+	<param name="body"></param>
+	<param name="CC"></param>
+	<remarks></remarks>
+</member><member name="M:Common.MailSender.Send(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="Recipient"></param>
+	<param name="Sender"></param>
+	<param name="Subject"></param>
+	<param name="Body"></param>
+	<param name="CC"></param>
+	<remarks></remarks>
+</member><member name="M:Common.ListHelper.Sort(System.Collections.IList,System.String)">
+	<summary>
+ 排序列表
+ </summary>
+	<param name="List"></param>
+	<param name="cSort"></param>
+	<remarks></remarks>
+</member><member name="M:Common.ListHelper.Filter(System.Collections.IList,System.String)">
+	<summary>
+ 过渡列表
+ </summary>
+	<param name="List"></param>
+	<param name="cFilter"></param>
+	<remarks></remarks>
+</member><member name="M:Common.ListHelper.Group(System.Collections.IList,System.String[])">
+	<summary>
+ 分组列表
+ </summary>
+	<param name="List"></param>
+	<param name="Fields"></param>
+	<remarks></remarks>
+</member><member name="T:Common.ListHelper">
+	<summary>
+ 列表辅助
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Common.Debug.TestData(System.Object)">
+	<summary>
+ 测试数据
+ </summary>
+	<param name="Source"></param>
+	<remarks></remarks>
+</member><member name="M:Common.Debug.myMsg(System.String,System.String)">
+	<summary>
+ 显示消息
+ </summary>
+	<param name="str"></param>
+	<param name="title"></param>
+	<remarks></remarks>
+</member><member name="T:Common.Debug">
+	<summary>
+ 调试函数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Common.ChinaDate.GetChinaDate(System.DateTime)">
+	<summary>
+ 获取农历
+ </summary>
+	<param name="dt"></param>
+	<returns></returns>
+</member><member name="M:Common.ChinaDate.GetYear(System.DateTime)">
+	<summary>
+ 获取农历年份
+ </summary>
+	<param name="dt"></param>
+	<returns></returns>
+</member><member name="M:Common.ChinaDate.GetMonth(System.DateTime)">
+	<summary>
+ 获取农历月份
+ </summary>
+	<param name="dt"></param>
+	<returns></returns>
+</member><member name="M:Common.ChinaDate.GetDay(System.DateTime)">
+	<summary>
+ 获取农历日期
+ </summary>
+	<param name="dt"></param>
+	<returns></returns>
+</member><member name="M:Common.ChinaDate.GetSolarTerm(System.DateTime)">
+	<summary>
+ 获取节气
+ </summary>
+	<param name="dt"></param>
+	<returns></returns>
+</member><member name="M:Common.ChinaDate.GetHoliday(System.DateTime)">
+	<summary>
+ 获取公历节日
+ </summary>
+	<param name="dt"></param>
+	<returns></returns>
+</member><member name="M:Common.ChinaDate.GetChinaHoliday(System.DateTime)">
+	<summary>
+ 获取农历节日
+ </summary>
+	<param name="dt"></param>
+	<returns></returns>
+</member><member name="T:Common.ChinaDate">
+	<summary>
+ 中国农历节日
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Common.Code39.GetCode39(System.String)">
+	<summary>
+ 将字符串转为图像文件Bitmap
+ </summary>
+	<param name="strSource"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Common.Code39">
+	<summary>
+ 条形码39类
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Common.DataBase.DataProvider">
+	<summary>
+ 数据库提供程序
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Common.DataBase.Provider">
+	<summary>
+ 获取或设置数据库提供程序
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Common.DataBase.DBProviderFactory">
+	<summary>
+ 提供创建数据库实现类的方法
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Common.DataBase.Conn">
+	<summary>
+ 获取或设置数据库连接
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.GetProviderName(Common.DataBase.DataProvider)">
+	<summary>
+ 获取数据库提供程序名
+ </summary>
+	<param name="Provider"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.GetServerName">
+	<summary>
+ 获取数据库所在服务器名
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.GetDataTable(System.String)">
+	<summary>
+ 执行查询,并返回DataTable
+ </summary>
+	<param name="sql">查询语句</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.GetDataTable(System.String,System.Data.Common.DbCommand)">
+	<summary>
+ 执行查询,并返回DataTable
+ </summary>
+	<param name="sql"></param>
+	<param name="cmd"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.ExecCmd(System.String)">
+	<summary>
+ 执行查询，并返回结果集的第一行第一列内容
+ </summary>
+	<param name="sql"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.ExecCmd(System.String,System.Data.Common.DbCommand)">
+	<summary>
+ 执行查询，并返回结果集的第一行第一列内容
+ </summary>
+	<param name="sql"></param>
+	<param name="cmd"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.ExistTable(System.String,System.Data.Common.DbCommand)">
+	<summary>
+ 是否存在表
+ </summary>
+	<param name="tbName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.ExistField(System.String,System.String,System.Data.Common.DbCommand)">
+	<summary>
+ 是否存在字段
+ </summary>
+	<param name="tbName"></param>
+	<param name="Field"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.GetDate(System.DateTime)">
+	<summary>
+ 获取日期字符串
+ </summary>
+	<param name="dDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.GetBoolean(System.Boolean)">
+	<summary>
+ 获取布尔值字符串
+ </summary>
+	<param name="Value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.GetString(System.String)">
+	<summary>
+ 获取字符串
+ </summary>
+	<param name="Value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.StringField(System.String)">
+	<summary>
+ 字符串字段
+ </summary>
+	<param name="cField"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.DataBase.NumberField(System.String)">
+	<summary>
+ 数字字段
+ </summary>
+	<param name="cField"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Common.DataBase">
+	<summary>
+ 数据库操作
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Common.Files.getSize(System.Double,System.Int32)">
+	<summary>
+ 取文件大小
+ </summary>
+	<param name="size"></param>
+	<param name="roundCount"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.Files.GetFileSize(System.String)">
+	<summary>
+ 取文件大小
+ </summary>
+	<param name="sFullName">文件名</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Common.Currency">
+	<summary>
+ 中文人民币大小写转换函数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Common.Draw.DrawPath(System.Drawing.Rectangle,System.Int32)">
+	<summary>
+ 画圆边框四边形
+ </summary>
+	<param name="rc">Rectangle </param>
+	<param name="r">角度</param>
+	<returns>GraphicsPath</returns>
+	<remarks></remarks>
+</member><member name="T:Common.Draw">
+	<summary>
+ 制图
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Common.Ean13">
+	<summary>
+ 条形码 EAN 13
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Common.IniFile.IniWriteValue(System.String,System.String,System.String,System.String)">
+	<summary>
+ 写INI文件
+ </summary>
+	<param name="Section"></param>
+	<param name="Key"></param>
+	<param name="Value"></param>
+</member><member name="M:Common.IniFile.IniReadValue(System.String,System.String,System.String)">
+	<summary>
+ 读取INI文件
+ </summary>
+	<param name="Section"></param>
+	<param name="Key"></param>
+	<returns></returns>
+</member><member name="M:Common.IniFile.ClearAllSection">
+	<summary>
+ 删除ini文件下所有段落
+ </summary>
+</member><member name="M:Common.IniFile.ClearSection(System.String)">
+	<summary>
+ 删除ini文件下personal段落下的所有键
+ </summary>
+	<param name="Section"></param>
+</member><member name="P:Common.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member><member name="P:Common.My.Resources.Resources.Culture">
+	<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:Common.My.Resources.Resources">
+	<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member><member name="M:Common.ConvertData.toStr(System.Object,System.Boolean)">
+	<summary>
+ 将数据转换为字符串
+ </summary>
+	<param name="Obj"></param>
+	<param name="bTrim">是否去掉前后空格</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.todbl(System.Object)">
+	<summary>
+ 将数据转换为Double数字
+ </summary>
+	<param name="Obj"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.FormatNumber(System.Double,System.Int32,System.String)">
+	<summary>
+ 格式化数字
+ </summary>
+	<param name="Num"></param>
+	<param name="Definition">精确小数位 默认小数位数4 </param>
+	<param name="Format">格式化</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.getPropertyInfo(System.Object,System.String)">
+	<summary>
+ 获取一个Model中指字名的PropertyInfo
+ </summary>
+	<param name="Field"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.toTable(System.Type)">
+	<summary>
+ 将对象类型转换为一张空DataTable 通过反射与实体类直接关系
+ </summary>
+	<param name="ItemType">对象类型</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.toTable_byModel(System.Object)">
+	<summary>
+ 将一个实体转换成DataTable
+ </summary>
+	<param name="mdl">实体类</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.toTable(System.Array,System.Type)">
+	<summary>
+ 将数组转换成DataTable
+ </summary>
+	<param name="Array">数组</param>
+	<param name="ItemType">对象类型</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.toTable(System.Collections.IList,System.Type)">
+	<summary>
+ 将集合转换成DataTable
+ </summary>
+	<param name="List">集合</param>
+	<param name="ItemType">对象类型</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.toTable(System.Windows.Forms.DataGridViewColumnCollection)">
+	<summary>
+ 将表格列转换成DataTable
+ </summary>
+	<param name="cols"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.toModel(System.Data.DataRow,System.Object@)">
+	<summary>
+ 将一个DataRow的内容复制到一个Model
+ </summary>
+	<param name="drSource">源DataRow</param>
+	<param name="mdlTarget">目标Model</param>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.CopyModel(System.Object,System.Object)">
+	<summary>
+ 将一个Model的内容复制到别一个Model
+ </summary>
+	<param name="mdlSource"></param>
+	<param name="mdlTarget"></param>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.toDataRow(System.Object,System.Data.DataRow)">
+	<summary>
+ 将一个Model的内容复制到一个DataRow
+ </summary>
+	<param name="mdlSource"></param>
+	<param name="drTarget"></param>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.toDataRow(System.Object,System.Data.DataRow,System.Reflection.PropertyInfo[])">
+	<summary>
+ 将一个Model的内容复制到一个DataRow
+ </summary>
+	<param name="mdlSource"> 实体 </param>
+	<param name="drTarget"> 目标行 </param>
+	<param name="Pros"> 反射元属性 </param>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.CopyDataRow(System.Data.DataRow,System.Data.DataRow@)">
+	<summary>
+ 将一个DataRow的内容复制到另一个DataRow
+ </summary>
+	<param name="drSource">源DataRow</param>
+	<param name="drTarget">目标DataRow</param>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.ChinaRound(System.Double,System.Int32)">
+	<summary>
+ 四舍五入-中国用法
+ </summary>
+	<param name="value">数值</param>
+	<param name="decimals">保留位数</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.UpperMoney(System.String)">
+	<summary>
+ 将金额转换成大写
+ </summary>
+	<param name="Money">金额</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.Group(System.Data.DataTable,System.String[])">
+	<summary>
+ 分组
+ </summary>
+	<param name="GroupFields"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.ConvertData.DayOfWeek(System.DateTime,System.Boolean)">
+	<summary>
+ 转换中国星期格式
+ </summary>
+	<param name="_datetime">日期</param>
+	<param name="bShort">显示长短 长 星期日 短 日 </param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Common.ConvertData">
+	<summary>
+ 数据转变函数
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Common.StringPlus.DelLastComma(System.String)">
+	<summary>
+ 删除最后结尾的一个逗号
+ </summary>
+</member><member name="M:Common.StringPlus.DelLastChar(System.String,System.String)">
+	<summary>
+ 删除最后结尾的指定字符后的字符
+ </summary>
+</member><member name="M:Common.StringPlus.ToSBC(System.String)">
+	<summary>
+ 转全角的函数(SBC case)
+ </summary>
+	<param name="input"></param>
+	<returns></returns>
+</member><member name="M:Common.StringPlus.ToDBC(System.String)">
+	<summary>
+  转半角的函数(SBC case)
+ </summary>
+	<param name="input">输入</param>
+	<returns></returns>
+</member><member name="M:Common.Validate.IsEmail(System.String)">
+	<summary>
+ 验证电子邮件
+ </summary>
+	<param name="inputData"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.Validate.GetBirhDate(System.String)">
+	<summary>
+ 取身份证上的出生日期
+ </summary>
+	<param name="stID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.Validate.GetSex(System.String)">
+	<summary>
+ 取性别
+ </summary>
+	<param name="_Id"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Common.Validate">
+	<summary>
+ 验证函数
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Common.ExecResult.Succeed">
+	<summary>
+ 成功
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Common.ExecResult.Fail">
+	<summary>
+ 失败
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Common.Queryer.Filter">
+	<summary>
+ 获取或设置查询条件
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Common.Queryer.Append(System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ 追加查询条件
+ </summary>
+	<param name="Field">字段</param>
+	<param name="Operate">操作符</param>
+	<param name="Value">值</param>
+	<param name="bMark">是否用单引号包含Value</param>
+	<remarks></remarks>
+</member><member name="M:Common.Queryer.Append(System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+	<summary>
+ 追加查询条件
+ </summary>
+	<param name="bRelation">关系:false_And,true_Or</param>
+	<param name="Field">字段</param>
+	<param name="Operate">操作符</param>
+	<param name="Value">值</param>
+	<param name="bMark">是否用单引号包含Value</param>
+	<param name="bIgnoreNull">是否忽略空值</param>
+	<remarks></remarks>
+</member><member name="T:Common.Queryer">
+	<summary>
+ 查询类
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

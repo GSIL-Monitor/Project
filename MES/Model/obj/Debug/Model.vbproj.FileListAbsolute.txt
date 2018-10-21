@@ -1,0 +1,11 @@
+D:\无锡顶锋日嘉\Project\MES\Model\bin\Debug\Model.dll
+D:\无锡顶锋日嘉\Project\MES\Model\bin\Debug\Model.pdb
+D:\无锡顶锋日嘉\Project\MES\Model\bin\Debug\Model.xml
+D:\无锡顶锋日嘉\Project\MES\Model\obj\Debug\Model.Resources.resources
+D:\无锡顶锋日嘉\Project\MES\Model\obj\Debug\Model.vbproj.GenerateResource.Cache
+D:\无锡顶锋日嘉\Project\MES\Model\obj\Debug\Model.dll
+D:\无锡顶锋日嘉\Project\MES\Model\obj\Debug\Model.xml
+D:\无锡顶锋日嘉\Project\MES\Model\obj\Debug\Model.pdb
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\Model.dll
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\Model.pdb
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\Model.xml

@@ -1,0 +1,8 @@
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\KanBan.exe.config
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\KanBan.exe
+D:\无锡顶锋日嘉\Project\MES\MES\bin\Debug\KanBan.pdb
+D:\无锡顶锋日嘉\Project\MES\KanBan\obj\Debug\KanBan.vbprojResolveAssemblyReference.cache
+D:\无锡顶锋日嘉\Project\MES\KanBan\obj\Debug\KanBan.vbproj.GenerateResource.Cache
+D:\无锡顶锋日嘉\Project\MES\KanBan\obj\Debug\KanBan.exe
+D:\无锡顶锋日嘉\Project\MES\KanBan\obj\Debug\KanBan.pdb
+D:\无锡顶锋日嘉\Project\MES\KanBan\obj\Debug\KanBan.NewOrders.resources

@@ -1,0 +1,49 @@
+C:\Documents and Settings\Administrator\桌面\yonseERP\View\bin\Debug\Control.dll
+C:\Documents and Settings\Administrator\桌面\yonseERP\View\bin\Debug\Control.pdb
+C:\Documents and Settings\Administrator\桌面\yonseERP\View\bin\Debug\Control.xml
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.CView.resources
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.frmDataGridSetting.resources
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.frmDate.resources
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.Resources.resources
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.MyTextBox.resources
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.MyToolStrip.resources
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.dll
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.xml
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.pdb
+C:\Documents and Settings\Administrator\桌面\yonseERP\Control\obj\Release\Control.MyDualList.resources
+D:\C#Project\yonseERP\View\bin\Debug\Control.dll
+D:\C#Project\yonseERP\View\bin\Debug\Control.pdb
+D:\C#Project\yonseERP\View\bin\Debug\Control.xml
+D:\C#Project\yonseERP\Control\obj\Release\ResolveAssemblyReference.cache
+D:\C#Project\yonseERP\Control\obj\Release\Control.CView.resources
+D:\C#Project\yonseERP\Control\obj\Release\Control.frmDataGridSetting.resources
+D:\C#Project\yonseERP\Control\obj\Release\Control.frmDate.resources
+D:\C#Project\yonseERP\Control\obj\Release\Control.Resources.resources
+D:\C#Project\yonseERP\Control\obj\Release\Control.MyDualList.resources
+D:\C#Project\yonseERP\Control\obj\Release\Control.MyTextBox.resources
+D:\C#Project\yonseERP\Control\obj\Release\Control.MyToolStrip.resources
+D:\C#Project\yonseERP\Control\obj\Release\Control.vbproj.GenerateResource.Cache
+D:\C#Project\yonseERP\Control\obj\Release\Control.dll
+D:\C#Project\yonseERP\Control\obj\Release\Control.xml
+D:\C#Project\yonseERP\Control\obj\Release\Control.pdb
+E:\HR\View\bin\Debug\Control.dll
+E:\HR\View\bin\Debug\Control.pdb
+E:\HR\View\bin\Debug\Control.xml
+E:\HR\Control\obj\Release\ResolveAssemblyReference.cache
+E:\HR\Control\obj\Release\Control.CView.resources
+E:\HR\Control\obj\Release\Control.frmDataGridSetting.resources
+E:\HR\Control\obj\Release\Control.frmDate.resources
+E:\HR\Control\obj\Release\Control.Resources.resources
+E:\HR\Control\obj\Release\Control.MyCellHeadCaption.resources
+E:\HR\Control\obj\Release\Control.MyCustomerCell.resources
+E:\HR\Control\obj\Release\Control.MyDualList.resources
+E:\HR\Control\obj\Release\Control.MyTextBox.resources
+E:\HR\Control\obj\Release\Control.MyTextTime.resources
+E:\HR\Control\obj\Release\Control.MyToolStrip.resources
+E:\HR\Control\obj\Release\GenerateResource.read.1.tlog
+E:\HR\Control\obj\Release\GenerateResource.write.1.tlog
+E:\HR\Control\obj\Release\Control.dll
+E:\HR\Control\obj\Release\Control.xml
+E:\HR\Control\obj\Release\Control.pdb

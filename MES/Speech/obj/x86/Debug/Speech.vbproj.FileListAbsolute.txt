@@ -1,0 +1,8 @@
+D:\上海日嘉\HR\VIEW\bin\Debug\Speech.pdb
+D:\上海日嘉\HR\VIEW\bin\Debug\Speech.xml
+D:\上海日嘉\HR\Speech\obj\x86\Debug\Speech.Resources.resources
+D:\上海日嘉\HR\Speech\obj\x86\Debug\Speech.vbproj.GenerateResource.Cache
+D:\上海日嘉\HR\Speech\obj\x86\Debug\Speech.xml
+D:\上海日嘉\HR\Speech\obj\x86\Debug\Speech.pdb
+D:\上海日嘉\HR\VIEW\bin\Debug\Speech.dll
+D:\上海日嘉\HR\Speech\obj\x86\Debug\Speech.dll
